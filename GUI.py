@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import (
     QMessageBox, QVBoxLayout, QHBoxLayout, QSizePolicy
 )
 from dfs_sudoku_solver import solve_sudoku_dfs
-# from bfs_sudoku_solver import solve_sudoku_bfs 
+from bfs_sudoku_solver import solve_sudoku_bfs 
 
 import pandas as pd
 import numpy as np
@@ -15,7 +15,7 @@ def check_table(path):
         if df.shape != (9, 9):
             return {"response": "TABLE SHOULD BE IN 9x9 FORMAT"}
         df.fillna(0, inplace=True)
-        if not df.applymap(lambda x: x in range(10)).all().all():
+        if not df.apply(lambda col: col.map(lambda x: x in range(10))).all().all():
             return {"response": "ALL VALUES SHOULD BE INTEGERS BETWEEN 0 AND 9"}
         return {"response": "200"}
 
