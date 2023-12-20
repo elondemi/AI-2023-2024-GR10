@@ -1,0 +1,15 @@
+C:\Users\arian\source\repos\Social Golfers\Social Golfers\bin\Debug\net6.0\SocialGolferBFS.exe
+C:\Users\arian\source\repos\Social Golfers\Social Golfers\bin\Debug\net6.0\SocialGolferBFS.deps.json
+C:\Users\arian\source\repos\Social Golfers\Social Golfers\bin\Debug\net6.0\SocialGolferBFS.runtimeconfig.json
+C:\Users\arian\source\repos\Social Golfers\Social Golfers\bin\Debug\net6.0\SocialGolferBFS.dll
+C:\Users\arian\source\repos\Social Golfers\Social Golfers\bin\Debug\net6.0\SocialGolferBFS.pdb
+C:\Users\arian\source\repos\Social Golfers\Social Golfers\obj\Debug\net6.0\SocialGolferBFS.csproj.AssemblyReference.cache
+C:\Users\arian\source\repos\Social Golfers\Social Golfers\obj\Debug\net6.0\SocialGolferBFS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arian\source\repos\Social Golfers\Social Golfers\obj\Debug\net6.0\SocialGolferBFS.AssemblyInfoInputs.cache
+C:\Users\arian\source\repos\Social Golfers\Social Golfers\obj\Debug\net6.0\SocialGolferBFS.AssemblyInfo.cs
+C:\Users\arian\source\repos\Social Golfers\Social Golfers\obj\Debug\net6.0\SocialGolferBFS.csproj.CoreCompileInputs.cache
+C:\Users\arian\source\repos\Social Golfers\Social Golfers\obj\Debug\net6.0\SocialGolferBFS.dll
+C:\Users\arian\source\repos\Social Golfers\Social Golfers\obj\Debug\net6.0\refint\SocialGolferBFS.dll
+C:\Users\arian\source\repos\Social Golfers\Social Golfers\obj\Debug\net6.0\SocialGolferBFS.pdb
+C:\Users\arian\source\repos\Social Golfers\Social Golfers\obj\Debug\net6.0\SocialGolferBFS.genruntimeconfig.cache
+C:\Users\arian\source\repos\Social Golfers\Social Golfers\obj\Debug\net6.0\ref\SocialGolferBFS.dll

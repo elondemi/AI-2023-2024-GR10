@@ -1,4 +1,4 @@
-﻿namespace Social.Golfers.Dfs
+﻿namespace Social_Golfers_Dfs_Final_Solution
 {
 
     class Program
@@ -10,41 +10,26 @@
 
         public static void Main(string[] args)
         {
-
-            Node n1 = new(new List<int>() { 1, 2, 3, 4 });
-            Node n2 = new(new List<int>() { 5, 6, 7, 8 });
-            Node n3 = new(new List<int>() { 1, 2, 4, 5 });
-
-            List<Node> nodes = new() { n1, n2, n3 };
-            Node n4 = new(new List<int>() { 1, 2, 3, 4 });
-
-            bool x = ListContains(n4, nodes);
-
             int[,] playerMatches = new int[N, N];
             List<List<int>> weeks = new();
             int MaxNumberOfWeek = (int)Math.Floor((double)(N - 1) / (P - 1));
-            for (int i = 0; i < 5; i++)
+            for (int week = 0; week < 5; week++)
             {
-                Solution sol = FindSolutionPerWeek(playerMatches);
-                weeks.Add(sol.Week);
-                playerMatches = sol.PlayerMatches;
-
-            }
-
-            for (int i = 0; i < weeks.Count; i++)
-            {
-                Console.WriteLine($"Week {i + 1}");
-                for (int j = 0; j < weeks[i].Count; j++)
+                Solution solution = FindSolutionPerWeek(playerMatches);
+                if (solution != null)
                 {
-                    Console.WriteLine($"Player {j} is in group {weeks[i][j]}");
+                    weeks.Add(solution.Week);
+                    playerMatches = solution.PlayerMatches;
                 }
-                Console.WriteLine();
-                //for (int j = 0; j < weeks[i].Count; j++)
-                //{
-                //    Console.WriteLine($"Player {weeks[i][j].Id} is in group {weeks[i][j].Group}");
-                //}
-                //Console.WriteLine();
+                else
+                {
+                    Console.WriteLine("No solution found for week: " + (week + 1));
+                    break;
+                }
+
             }
+
+            PrintSolution(weeks);
 
         }
 
@@ -106,6 +91,19 @@
 
         }
 
+        private static void PrintSolution(List<List<int>> weeks)
+        {
+            for (int i = 0; i < weeks.Count; i++)
+            {
+                Console.WriteLine($"Week {i + 1}:");
+                for (int j = 0; j < weeks[i].Count; j++)
+                {
+                    Console.WriteLine($"Player {j + 1} is in group {weeks[i][j]}");
+                }
+                Console.WriteLine();
+            }
+        }
+
         public static bool ListContains(Node node, List<Node> list)
         {
             for (int i = 0; i < list.Count; i++)
@@ -125,9 +123,9 @@
 
         public class Node
         {
-            public const int G = 8; //Number of groups.
-            public const int P = 4; //Number of players per group.
-            public const int N = G * P; //Number of Golfers.
+            public const int G = 8;
+            public const int P = 4;
+            public const int N = G * P;
 
             public Node()
             {
@@ -152,8 +150,6 @@
 
                     for (int g = G; g >= 1; g--)
                     {
-                        //if (playerMatches[i, g] == 1)
-                        //    continue;
 
                         List<int> newWeek = new(Week)
                         {
@@ -192,21 +188,10 @@
                     if (playerMatches[player, otherPlayersInGroup[j]] == 1)
                         return false;
                 }
-                //{
-                //    if (playerMatches[player, j] == 1)
-                //        return false;
-                //}
-
-                //if (playerMatches[i, player] == 1)
-                //{
-                //    if (newWeek[i] == 0)
-                //        return false;
-                //}
-
 
                 return true;
             }
-            //Override the Equals
+
             public bool Equals(object obj)
             {
                 Node objSud = (Node)obj;
