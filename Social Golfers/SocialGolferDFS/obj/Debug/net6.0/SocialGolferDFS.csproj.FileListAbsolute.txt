@@ -1,0 +1,15 @@
+C:\Users\arian\source\repos\Social Golfers\SocialGolferDFS\bin\Debug\net6.0\SocialGolferDFS.exe
+C:\Users\arian\source\repos\Social Golfers\SocialGolferDFS\bin\Debug\net6.0\SocialGolferDFS.deps.json
+C:\Users\arian\source\repos\Social Golfers\SocialGolferDFS\bin\Debug\net6.0\SocialGolferDFS.runtimeconfig.json
+C:\Users\arian\source\repos\Social Golfers\SocialGolferDFS\bin\Debug\net6.0\SocialGolferDFS.dll
+C:\Users\arian\source\repos\Social Golfers\SocialGolferDFS\bin\Debug\net6.0\SocialGolferDFS.pdb
+C:\Users\arian\source\repos\Social Golfers\SocialGolferDFS\obj\Debug\net6.0\SocialGolferDFS.csproj.AssemblyReference.cache
+C:\Users\arian\source\repos\Social Golfers\SocialGolferDFS\obj\Debug\net6.0\SocialGolferDFS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arian\source\repos\Social Golfers\SocialGolferDFS\obj\Debug\net6.0\SocialGolferDFS.AssemblyInfoInputs.cache
+C:\Users\arian\source\repos\Social Golfers\SocialGolferDFS\obj\Debug\net6.0\SocialGolferDFS.AssemblyInfo.cs
+C:\Users\arian\source\repos\Social Golfers\SocialGolferDFS\obj\Debug\net6.0\SocialGolferDFS.csproj.CoreCompileInputs.cache
+C:\Users\arian\source\repos\Social Golfers\SocialGolferDFS\obj\Debug\net6.0\SocialGolferDFS.dll
+C:\Users\arian\source\repos\Social Golfers\SocialGolferDFS\obj\Debug\net6.0\refint\SocialGolferDFS.dll
+C:\Users\arian\source\repos\Social Golfers\SocialGolferDFS\obj\Debug\net6.0\SocialGolferDFS.pdb
+C:\Users\arian\source\repos\Social Golfers\SocialGolferDFS\obj\Debug\net6.0\SocialGolferDFS.genruntimeconfig.cache
+C:\Users\arian\source\repos\Social Golfers\SocialGolferDFS\obj\Debug\net6.0\ref\SocialGolferDFS.dll
